@@ -11,4 +11,9 @@ public class HomeController {
 		return "main-menu";
 	}
 	
+	@RequestMapping("/j")
+	public String showPage1 () {
+		return "main-menu1";
+	}
+	
 }
